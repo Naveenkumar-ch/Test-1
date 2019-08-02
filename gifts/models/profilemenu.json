@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "fas fa-user-circle",
+    "title": "My Profile",
+    "link": "#/myprofile"
+  },
+  {
+    "icon": "fas fa-dice",
+    "title": "Game Zone & Rewards",
+    "link": "#/gamezone"
+  },
+  {
+    "icon": "fas fa-history",
+    "title": "Orders",
+    "link": "#/orders"
+  },
+  {
+    "icon": "fas fa-heart",
+    "title": "Wishlist",
+    "link": "#/wishlist"
+  },
+  {
+    "icon": "fas fa-exclamation-circle",
+    "title": "Notifications",
+    "link": "#/notifications"
+  },
+  {
+    "icon": "fas fa-headset",
+    "title": "Customer Care",
+    "link": "#/customercare"
+  },
+  {
+    "icon": "fab fa-adobe",
+    "title": "Advertise",
+    "link": "#/advertise"
+  },
+  {
+    "icon": "fas fa-power-off",
+    "title": "Logout",
+    "link": "#/logout"
+  }
+]

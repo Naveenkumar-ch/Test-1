@@ -1,0 +1,64 @@
+[
+  {
+    "bodyimage": {
+      "image": [
+        "images/deals2.png",
+        "#"
+      ],
+      "2ndimage": [
+        "images/deals2.png",
+        "#"
+      ]
+    },
+    "wiinnername": "siva",
+    "winnerprofile": "View profile",
+    "prductdetail": "detailed-page.html",
+    "messagep-pre": "Open @ ",
+    "messagep-post": "Winner",
+    "start": "2019-07-26 00:00:00",
+    "end": "2019-07-26 01:00:00",
+    "footerimage": {
+      "image": [
+        "images/deals.png",
+        "#"
+      ],
+      "2ndimage": [
+        "images/deals.png",
+        "#"
+      ]
+    },
+    "id": "ti1",
+    "id1": "im1"
+  },
+  {
+    "bodyimage": {
+      "image": [
+        "images/deals2.png",
+        "#"
+      ],
+      "2ndimage": [
+        "images/deals2.png",
+        "#"
+      ]
+    },
+    "wiinnername": "siva",
+    "winnerprofile": "View profile",
+    "prductdetail": "detailed-page.html",
+    "messagep-pre": "Open @ ",
+    "messagep-post": "Winner",
+    "start": "2019-07-26 00:00:00",
+    "end": "2019-07-26 01:00:00",
+    "footerimage": {
+      "image": [
+        "images/deals.png",
+        "#"
+      ],
+      "2ndimage": [
+        "images/deals.png",
+        "#"
+      ]
+    },
+    "id": "ti1",
+    "id1": "im1"
+  }
+]

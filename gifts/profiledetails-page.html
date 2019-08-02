@@ -1,0 +1,78 @@
+
+
+<html >
+  <head>
+    
+    <title>Profile Details Page</title>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="gifts/images/gifts.ico">
+    <title>Gifts</title>
+   
+  <!-- Angular CDN Links -->
+     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-route.min.js"></script>
+    -->
+    <script src="https://code.angularjs.org/1.4.8/angular.js"></script>    
+    <script src="https://code.angularjs.org/1.2.16/angular-route.min.js"></script>
+  
+<!-- Boostrap & Fonts Links -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' data-integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' data-crossorigin='anonymous'>
+
+<!-- Boostrap Form links --><!-- 
+<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+ <!-- Module & Routes links -->
+  <script src="module/module.js"></script>
+  <script src="module/routemodule.js"></script> 
+<!--   <script src="routes/template.js"></script> -->
+
+  <!-- Controller Links -->
+   <script src="controllers/cards.js"></script>
+   <script src= "controllers/footer_ctrl.js"></script>
+   <script src= "controllers/bannerctrl.js"></script>   
+   <script src= "controllers/participantsctrl.js"></script>
+   <script src= "controllers/country.js"></script>
+   <script src= "controllers/productsctrl.js"></script>
+   <script src= "controllers/profilemenuctrl.js"></script>
+   <script src= "controllers/myprofilectrl.js"></script>
+
+<!-- Javascript Links -->
+    <script type="text/javascript" src="js/countdown.js" ></script> 
+    <script type="text/javascript" src="js/scripts.js" ></script>
+    <script type="text/javascript" src="js/scripts2.js" ></script>
+    <script type="text/javascript" src="js/detail-page.js" ></script>
+
+
+
+
+<!-- CSS Links  -->
+
+         <link href="css/style.css" rel="stylesheet">
+         <link href="css/footer.css" rel="stylesheet">
+         <link href="css/detailed-css.css" rel="stylesheet">
+         <link href="css/rightheader.css" rel="stylesheet">
+         <link href="css/myrightheader.css" rel="stylesheet">
+         <link href="css/myprofile.css" rel="stylesheet">
+
+ </head>
+
+ <body ng-app="CombineModule">
+  
+	<div  ng-app="routes">
+		<div ng-include="'views/profilesettingspage.html'"></div>
+	</div>
+
+
+  </body>
+</html>

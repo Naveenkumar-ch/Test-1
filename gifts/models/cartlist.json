@@ -1,0 +1,22 @@
+[
+  {
+    "skuicon": "fas fa-dice",
+    "skuname": "Electric Cooker",
+    "skudetail": "detailed-page.html"
+  },
+  {
+    "skuicon": "fas fa-dice",
+    "skuname": "Rice Cooker",
+    "skudetail": "#/productdetail/sku100"
+  },
+  {
+    "skuicon": "fas fa-dice",
+    "skuname": "Fan",
+    "skudetail": "#/productdetail/sku100"
+  },
+  {
+    "skuicon": "fas fa-dice",
+    "skuname": "Mixer",
+    "skudetail": "/productdetail/sku100"
+  }
+]

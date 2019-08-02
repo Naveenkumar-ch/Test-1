@@ -1,0 +1,81 @@
+ <html lang="en" >
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="gifts/images/gifts.ico">
+    <title>Gifts</title>
+   
+  <!-- Angular CDN Links -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-route.min.js"></script>
+	 
+
+	<!--  <script src="https://code.angularjs.org/1.4.8/angular.js"></script>    
+     <script src="https://code.angularjs.org/1.2.16/angular-route.min.js"></script>
+ -->
+   
+	
+<!-- Boostrap & Fonts Links -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <!-- Module links -->
+  <script src="module/module.js"></script>
+  <script src="module/routemodule.js"></script>
+
+  <!-- Controller Links -->
+   <script src="controllers/cards.js"></script>
+   <script src= "controllers/footer_ctrl.js"></script>
+   <script src= "controllers/bannerctrl.js"></script>   
+   <script src= "controllers/participantsctrl.js"></script>
+   <script src= "controllers/country.js"></script>
+   <script src= "controllers/productsctrl.js"></script>
+
+<!-- Javascript Links -->
+    <script type="text/javascript" src="js/countdown.js" ></script> 
+	<script type="text/javascript" src="js/scripts.js" ></script>
+	<script type="text/javascript" src="js/scripts2.js" ></script>
+    <script type="text/javascript" src="js/detail-page.js" ></script>
+
+
+<script src= "routes/template.js"></script>
+
+
+<!-- CSS Links  -->
+
+         <link href="css/style.css" rel="stylesheet">
+		 <link href="css/footer.css" rel="stylesheet">
+         <link href="css/detailed-css.css" rel="stylesheet">
+         <link href="css/rightheader.css" rel="stylesheet">
+         <link href="css/myrightheader.css" rel="stylesheet">
+		   
+<base href="/" >
+
+</head>
+<body ng-app="CombineModule">
+  
+
+<div>
+  <div ng-include="'gifts/views/header.html'"></div>
+</div>
+
+
+<div ng-app="routes">
+  <div ng-view></div>
+</div>
+  
+		
+	
+<div ng-controller="demoController">
+	<section ng-include="fixedlogo"></section>
+</div>
+
+<div  ng-controller="footerctrl">
+		<div ng-include="footerview"></div>
+</div>
+
+</body>
+</html>

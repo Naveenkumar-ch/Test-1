@@ -1,0 +1,35 @@
+
+<div>
+<ul class="nav navbar-nav navbar-right" id="right_hd">
+     <li><a href={{profilesdetails_data.iconlink}}  > <img ng-src={{profilesdetails_data.profileicon}} alt="pf_img" id="hdim"/> </a></li>
+     
+      <li class="dropdown" >
+      
+      <a href="#" class="dropdown-toggle " data-toggle="dropdown"  > {{profilesdetails_data.name }} <span class="glyphicon glyphicon-menu-down"></span></a>
+
+      <ul class="dropdown-menu dpm" id="space" >
+      
+      <li ng-repeat="x in profilemenu_data"><a href={{x.link}}><i class={{x.icon}} ></i><label > {{x.title}} </label></a>  </li>
+           
+      </ul>
+     
+      </li>
+
+
+
+ <li class="dropdown" >
+      
+      <a href="#" class="dropdown-toggle " data-toggle="dropdown"  > <span class="badge">{{profilesdetails_data.badges}}</span>Cart <span class="glyphicon glyphicon-menu-down"></span> </a>
+      <ul class="dropdown-menu dpm" id="space" >
+     
+
+      <li ng-repeat="y in cartlist_data"><a href={{y.skudetail}}><i class={{y.skuicon}} ></i><label > {{y.skuname}} </label></a>  </li> 
+      </ul>
+     
+      </li>
+
+  </ul>
+
+ </div>
+    
+

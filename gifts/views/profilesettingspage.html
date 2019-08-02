@@ -1,0 +1,47 @@
+
+<div >
+   <div ng-include="'templates/headertemplate.html'"></div>
+</div>
+
+
+
+<div class="container">
+
+<div class="row">
+<div class="col-md-3" >
+
+<div id="picname" ng-controller="profilemenuctrl"> 
+
+<img src="images/profilepicicon.svg" alt="pf_img"  />
+
+<div style="display : inline-block;float : right;padding-right:90px;">
+<p>Hello,</p>
+<h5 ><label>{{profilesdetails_data.name}}</label></h5>
+</div>
+</div>
+
+<div id="contlist" ng-controller="profilemenuctrl">
+<ul class="pcp">
+
+     <li ng-repeat="x in profilemenu_data"><a href={{x.link}}><i class={{x.icon}} ></i><label > {{x.title}} </label></a>  </li>
+</ul>
+
+</div>
+
+<div id="threerow"> 
+<h6> Frequently Visited :</h6>
+<p><a href="#">Change Password </a> <a href="#"> Track Order </a> <a href="#">Help Center</a></p>
+</div>
+
+</div>
+
+
+<div class="col-md-8 rightcont" ng-controller="profilemenuctrl">
+
+<div data-ng-view> </div>
+
+</div>
+
+</div>
+
+</div>

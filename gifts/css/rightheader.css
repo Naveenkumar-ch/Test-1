@@ -1,0 +1,114 @@
+body{
+	background-color: #f7f7f7;
+}
+
+
+#picname{
+	
+	padding-top: 5px;
+    margin: 10px 0px;
+    background-color: #ffff;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+
+#contlist{
+	background-color : #ffff;	
+}
+
+  /* */
+  #contlist ul{
+	
+	margin-top: 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    line-height: 3;
+    border: darkkhaki;
+   
+} 
+
+#pcp li{
+list-style-type: none;
+width : 200px;
+border-bottom : 1px solid #e6dfdf;
+padding : 10px;
+display : inline-block;
+}
+
+
+#threerow{
+	height: 80px;
+	padding-left: 10px;
+	background-color : #ffff;
+	padding-top : 10px;
+}
+
+#threerow p{
+	font-size:12px;
+	color: grey;
+}
+
+.rightcont{
+	margin : 10px;
+    overflow: auto;
+
+}
+
+#space label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+
+.pcp label {
+    
+    margin-left: 20px;
+}
+
+
+#picname ,#contlist, #threerow, .rightcont {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+#threerow {
+	margin-top : 10px;
+}
+
+/*  Left menu list settings  */
+
+.pcp li a:focus {
+    /* color: #ffff; */
+}
+
+.pcp li a:focus, a:hover {
+    /* color: #23527c; */
+    /* text-decoration: underline; */
+}
+
+.pcp li a{
+	color : black;
+}
+
+.pcp li a:active, a:hover {
+    outline: 0;
+}
+
+/*  My Profile Page  */
+
+.myprf {
+	padding-top : 15px;
+}
+
+#myprfnminpt {
+	padding-left: 15px;
+}
